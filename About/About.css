@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.About{
+    display: flex;
+}
+.Online{
+    width:400px;
+    margin:100px;
+    
+}
+.str{
+   margin:50px;
+    padding:70px;
+}
+.launc{
+    margin:100px;
+}
+.Story{
+    padding:20px;
+}

@@ -1,0 +1,38 @@
+.user-section {
+    width: 500px;
+    margin: 40px auto;
+    padding:50px;
+    
+   
+  }
+  
+  .sale-button {
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  
+  .user-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .user-title {
+    color:red;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .user-box p {
+    margin: 8px;
+    font-size: 15px;
+  }
+  
+  .user-box b {
+    color:black;
+  }
+  

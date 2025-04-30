@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+  }
+.mb-3 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    
+  }
+
+  input {
+
+    width:500px;
+    height:30px;
+  }
+  .container{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+   
+   
+  }
+.btn-btn-primary{
+  height:50px;
+  margin:40px;
+  width: 800px;
+background-color:red;
+color:black;
+justify-content: center;
+
+} 

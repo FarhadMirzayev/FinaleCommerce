@@ -1,0 +1,122 @@
+h1{
+    height:30px;
+    margin-left: 50px;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+.gaming{
+    width:950px;
+    margin-right:20px;
+
+}
+
+.console{
+    padding:20px;
+}
+.product-actions {
+    width: 300px;
+    
+    
+  }
+  
+  .add-to-cart {
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+   
+    margin-bottom: 20px;
+   
+  }
+  
+  .delivery-box {
+    border: 1px solid rgb(166, 160, 160);
+    padding: 30px;
+  
+  }
+  
+  .delivery-item {
+    
+    display: flex;
+    align-items:end;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .text  {
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom: 5px;
+  }
+  
+  .text  {
+    font-size: 14px;
+  }
+  
+  .text a {
+    color: black;
+    text-decoration: underline;
+  }
+  .related-section {
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .related-title {
+    font-size: 18px;
+    color: red;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+ 
+  
+  .related-items {
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  
+  .item-card {
+    background: #e3dbdb;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-sizing: border-box;
+    margin:80px;
+  }
+  
+  .item-card img {
+    width: 100%;
+    height: 150px;
+   
+    margin-bottom: 10px;
+  }
+  
+  .item-card h4 {
+    font-size: 16px;
+    margin: 10px ;
+    color:black;
+  }
+  
+  .price {
+    margin-bottom: 10px;
+  }
+  
+  .new-price {
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .old-price {
+    color:gray;
+    
+    font-size: 14px;
+  }
