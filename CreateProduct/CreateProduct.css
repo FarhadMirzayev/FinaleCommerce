@@ -1,0 +1,51 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  
+
+  .hall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    
+  }
+
+  
+
+
+
+  
+
+  .hl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links li {
+
+    padding: 10px;
+    list-style-type: none;
+
+  }
+  .container{
+    justify-content: center;
+    align-items:center;
+   
+  }
+
+

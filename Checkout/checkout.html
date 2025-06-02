@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./shop.css">
     <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="./checkout.css">
 </head>
 <body>
     <header>
@@ -27,68 +27,63 @@
                 <button class="ton">Log in</button>
             </div>
         </div>
+        <hr>
     </header>
-    <hr>
     <main>
-      <div class="shop-header">
-        <h1>Shop</h1>
-        <input type="text" placeholder="Search..." />
-        <button>All products</button>
-      </div>
+        <div class="checkout-container">
+            <form class="form-left">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Last name" required>
     
-      <div class="shop-content">
-        <div class="filters">
-          <h3>Category</h3>
-          <ul>
-            <li>Clothing</li>
-            <li>Footwear</li>
-            <li>Accessories</li>
-            <li>Tablets</li>
-          </ul>
-          
-          <h3>Rate</h3>
-          
+                <select>
+                    <option value="">Choose...</option>
+                    <option value="NY">New York</option>
+                    <option value="CA">California</option>
+                    <option value="TX">Texas</option>
+                </select>
+    
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="Address" required>
+                <input type="text" placeholder="Zip" required>
+                <input type="tel" placeholder="Tel" required>
+                <input type="email" placeholder="Email" required>
+    
+                <label class="terms">
+                    <input type="checkbox" required>
+                    Agree to terms and conditions
+                </label>
+            </form>
+    
+            <div class="form-right">
+                <div class="payment-icons">
+                    <img src="https://img.icons8.com/color/48/000000/visa.png" />
+                    <img src="https://img.icons8.com/color/48/000000/mastercard.png" />
+                    <img src="https://img.icons8.com/color/48/000000/amex.png" />
+                    <img src="https://img.icons8.com/color/48/000000/discover.png" />
+                    <img src="https://img.icons8.com/color/48/000000/maestro.png" />
+                    <img src="https://img.icons8.com/color/48/000000/jcb.png" />
+                </div>
+    
+                <input type="text" placeholder="Card number" required>
+                <div class="card-details">
+                    <input type="text" placeholder="Expiration (MM)" required>
+                    <input type="text" placeholder="Expiration (YY)" required>
+                    <input type="text" placeholder="Card security code" required>
+                </div>
+    
+                <div class="totals">
+                    <p><span>Subtotal</span><span>189.96999999999997$</span></p>
+                    <p><span>Shipping</span><span>FREE</span></p>
+                    <p class="total"><span>Total</span><span>189.96999999999997$</span></p>
+                </div>
+    
+                <button  class="order-button"> <a href="../ProductPage.html">Place order</a></button>
+            </div>
         </div>
-        <select>
-          <option>sort by</option>
-        </select>
-        <section class="products">
-          <div class="product-card">
-            <a href="ProductPage.html"></a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-ofzi0EOZhg9PdOLe-f9SkNag6BB1Gi4ZA&s" alt="Cotton T-Shirt">
-            <h4>Hanes Men's Cotton T Shirt</h4>
-            <p class="price">$19.99</p>
-            <p class="rating">(52)</p>
-            <button> <a href="./cart/cart.html">Add to cart</a></button>
-          </div>
     
-          <div class="product-card">
-            <a href="ProductPage.html"></a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZSIOzKZUK3C1UXzNlIDLMtjYq1u5WzKkCw&s" alt="Nike Shoes">
-            <h4>Nike Running Shoes</h4>
-            <p class="price">$49.99 </p>
-            <p class="rating">(35)</p>
-            <button> <a href="./cart/cart.html">Add to cart</a></button>
-          </div>
-    
-          <div class="product-card">
-          <a href="ProductPage.html"><img src="https://shop.samsonite.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwb75c76b1/collections/_samsonite/Elevation/500x500/147935-1549-FRONT34.jpg?sw=912&sh=912" alt="Samsonite Backpack"></a>
-            <h4>Samsonite Backpack</h4>
-            <p class="price">$79.99</p>
-            <p class="rating">(40)</p>
-            <button> <a href="./cart/cart.html">Add to cart</a></button>
-          </div>
-    
-          <div class="product-card">
-            <a href="ProductPage.html"></a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC7krDeHLFRq4-UQbMAaexeQNlG3vpVPAIsA&s" alt="Apple iPad Pro">
-            <h4>Apple iPad Pro</h4>
-            <p class="price">$999.99</p>
-            <p class="rating"> (47)</p>
-            <button> <a href="./cart/cart.html">Add to cart</a></button>
-          </div>
-        </section>
-      </div>
-
     </main>
     <footer>
+       
         <div class="footer-container">
             <div class="footer-section">
               <h3>Exclusive</h3>
@@ -133,4 +128,4 @@
           </div>
     </footer>
 </body>
-</html>Shop.html
+</html>

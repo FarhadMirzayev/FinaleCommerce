@@ -24,11 +24,7 @@
     
   }
 
-  input {
-
-    width:185x;
-    height:30px;
-  }
+  
   .dir {
  background-color: red;
   color: white;
@@ -42,39 +38,10 @@ li {
   padding: 20px;
   
 }
-.vis {
-height:50px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.bef {
-  display: flex;
-  margin-bottom: 0px;
-  align-items: center;
-  justify-content:center;
-}
-.ton{
-  background-color: yellow;
-   padding:10px;}
 
-  
 
-  .hl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
 
-  }
-
-  .nav-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .nav-links li {
 

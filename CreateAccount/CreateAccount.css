@@ -149,3 +149,10 @@ justify-content: center;
     width: 120px;
     margin-top: 10px;
   }
+  .login{
+ color:red;
+ text-decoration: none;
+  }
+  .alr{
+    text-align: center;
+  }
