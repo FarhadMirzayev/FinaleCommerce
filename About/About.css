@@ -21,3 +21,13 @@
 .Story{
     padding:20px;
 }
+.marg{
+    margin: 35px;
+    height:400px;
+    
+}
+.just{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

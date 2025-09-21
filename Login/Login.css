@@ -23,6 +23,7 @@ body {
     margin:20px;
     
   }
+  
 
   input {
 
@@ -36,7 +37,7 @@ body {
    
    
   }
-.btn-btn-primary{
+.btnbtn-primary{
   height:50px;
   margin:40px;
   width: 800px;

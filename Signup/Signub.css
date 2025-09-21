@@ -49,26 +49,23 @@ li {
     list-style-type: none;
 
   }
-  .container{
+.myform{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:center;
-   
-  }
-.btn-btn-primary{
-  height:50px;
-  margin:40px;
-  width: 800px;
-background-color:red;
-color:black;
-justify-content: center;
-
+    align-items: center;
+    padding: 30px;
 }
-  .myform{
-    margin-right:200px;
-    margin-left:200px;
-
-
-  }
+input{                          
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+}
+.myform button{
+    padding: 10px;
+    width:400px;
+   
+}
 
   footer {
     background-color: red;
